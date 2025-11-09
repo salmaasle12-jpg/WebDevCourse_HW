@@ -44,3 +44,11 @@ Title {
     font-style: italic;
 }
 
+.songLink {
+    color: navy;
+}
+
+.songLink:hover {
+    color: purple;            
+    text-decoration: underline; 
+}
