@@ -32,3 +32,15 @@ img {
     width: 120px;
     border-radius: 5px;
 }
+
+Title {
+    background-color: blue;
+    color: white;
+}
+.RowStyle {
+    background-color: lightblue;
+    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+}
+
