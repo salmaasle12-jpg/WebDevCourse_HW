@@ -1,0 +1,45 @@
+.contact-table {
+    width: 50%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.contact-table th, .contact-table td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+td {
+    text-align: left;
+    background-color: bisque;
+}
+
+input, textarea {
+    width: 70%;
+    padding: 3px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+    background-color: beige;
+}
+
+.sendButton {
+    text-align: center;
+    background-color: brown;
+}
+
+button {
+    padding: 6px 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.table-header {
+    font-size: 24px;
+    text-align: center;
+}
+

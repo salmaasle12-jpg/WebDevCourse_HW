@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+
+    <h1 class="Title">Contact</h1>
+
+    <table class="contact-table">
+        <tr>
+            <th class="table-header" colspan="2">Send a Message</th>
+        </tr>
+        <tr> 
+            <td>Name:</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td><input type="tel" name="phone"></td>
+        </tr>
+        <tr>
+            <td>Subject:</td>
+            <td><input type="text" name="subject"></td>
+        </tr>
+        <tr>
+            <td>Message:</td>
+            <td><textarea name="message"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="sendButton">
+                <button type="button" onclick="DoSomething();">Send Message</button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
