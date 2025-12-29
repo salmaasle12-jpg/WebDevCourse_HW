@@ -1,83 +1,32 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>TubeTracker</title>
-    <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="p-4">
+<body style="background-color: lightgray; text-align:center;">
+
+
 <div class="container">
-    <h1 class="text-center text-primary mb-4">🎵 Excercise Songs List
-         <span class="text-info">Salma</span>
-    </h1>
 
-    <div class="card border-primary mb-4">
-        <div class="card-body">
-            <form id="songForm" class="row g-2">
-                <input type="hidden" id="songId">
+  <h1>WEB CLIENT PROJECT</h1>
 
-                    <div class="col-md-4">
-                        <input type="text" id="title" class="form-control" placeholder="Song Title" required>
-                    </div>
+  <p>Name: Salma Asle</p>
 
-                    <div class="col-md-4">
-                        <input type="url" id="url" class="form-control" placeholder="YouTube URL" required>
-                    </div>
+    <p>id: 326184082 </p>
+ 
 
-                    <div class="col-md-2">
-                         <input type="number" id="rating" class="form-control" placeholder="Rating 1-10"
-                             min="1" max="10" required>
-                 </div>
+  <a href="register.html">Register</a> |
+  <a href="login.html">Login</a>
 
-                <div class="col-md-2">
-                     <button type="submit" id="submitBtn" class="btn btn-success w-100">
-                         <i class="fas fa-plus"></i> Save
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
+  <br><br>
 
-    <div class="d-flex justify-content-between mb-3 align-items-center">
-    <input type="text" id="search" class="form-control w-50" placeholder="Search...">
-    
-    <div class="ms-3">
-        <span class="me-2">Sort by:</span>
-        <label class="me-2">
-            <input type="radio" name="sort" value="date" checked> Date
-        </label>
-        <label class="me-2">
-            <input type="radio" name="sort" value="title"> Name
-        </label>
-        <label>
-            <input type="radio" name="sort" value="rating"> Rating
-        </label>
-    </div>
-
-    <button id="toggleView" class="btn btn-outline-info ms-3">
-        <i class="fas fa-table"></i>
-    </button>
-</div>
-
-
-    <table class="table table-hover" id="tableView">
-    <thead>
-    <tr>
-        <th>Thumbnail</th>
-        <th>Title</th>
-        <th>Rating</th>
-        <th class="text-end">Actions</th>
-    </tr>
-    </thead>
-    <tbody id="songList"></tbody>
-</table>
-
-
-<div class="row d-none" id="cardView"></div>
+  <a href="" target="_blank">GitHub link</a>
+  <br>
+    <a href="" target="_blank">live GitHub link</a>
 
 </div>
-<script src="script.js"></script>
+
 </body>
 </html>
